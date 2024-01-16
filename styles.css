@@ -1,0 +1,43 @@
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.5px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.container .info {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 1.5px;
+}
+
+.container .info span {
+    color: #e95400
+}
+
+.headline {
+    margin: 40px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 14px;
+    border-left: 2px solid #e95400;
+    padding-left: 16px;
+}
+
+.quote cite {
+    display: block;
+    font-weight: bold;
+    margin-left: 10px;
+}

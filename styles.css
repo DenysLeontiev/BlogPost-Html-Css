@@ -1,8 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     font-size: 16px;
     margin: 0;
     padding: 0;
     letter-spacing: 0.5px;
+}
+
+.hero {
+    background-color: #863ae8;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1,.hero p {
+    width: 75%;
+    max-width: 900px;
+    margin: 16px 0;
+}
+
+.hero hr {
+    margin: 32px 0;
+    width: 50%;
 }
 
 .container {
